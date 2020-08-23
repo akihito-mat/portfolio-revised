@@ -1,0 +1,70 @@
+/* mixinの定義 */
+@mixin bg-gradient($angle: 180deg, $main-color: #0bd, $sub-color: white) {
+    background: linear-gradient($angle, $main-color 20%, $sub-color 80%) fixed;
+  }
+
+body{
+    @include bg-gradient;
+    
+    header{
+        background-size: width 100px, height 5px;
+        background-color: silver;
+        color: red;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section{
+        padding: 10px;
+
+
+        h1{
+            font-weight: bolder;
+            color: rgb(31, 30, 30);
+            margin: 0%;
+            padding: 3px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    section{
+        padding: 10px;
+
+        img{
+            padding-left: 100px;
+            padding-right: 100px; 
+        }
+
+        h1{
+            font-weight: bolder;
+            color: rgb(31, 30, 30);
+            margin: 0%;
+            padding: 3px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    section{
+        padding: 10px;
+
+
+        h1{
+            font-weight: bolder;
+            color: rgb(31, 30, 30);
+            margin: 0%;
+            padding: 3px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}

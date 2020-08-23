@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* mixinの定義 */
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #0bd), color-stop(80%, white)) fixed;
+  background: linear-gradient(180deg, #0bd 20%, white 80%) fixed;
+}
+
+body header {
+  background-size: width 100px, height 5px;
+  background-color: silver;
+  color: red;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section {
+  padding: 10px;
+}
+
+body section h1 {
+  font-weight: bolder;
+  color: #1f1e1e;
+  margin: 0%;
+  padding: 3px;
+}
+
+body section p {
+  font-size: 20px;
+}
+
+body section {
+  padding: 10px;
+}
+
+body section img {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body section h1 {
+  font-weight: bolder;
+  color: #1f1e1e;
+  margin: 0%;
+  padding: 3px;
+}
+
+body section p {
+  font-size: 20px;
+}
+
+body section {
+  padding: 10px;
+}
+
+body section h1 {
+  font-weight: bolder;
+  color: #1f1e1e;
+  margin: 0%;
+  padding: 3px;
+}
+
+body section p {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
